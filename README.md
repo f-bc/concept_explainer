@@ -1,4 +1,4 @@
-# 🧠 Concept Explainer
+# Research assistant
 
 A simple AI-powered web application that explains unfamiliar concepts in **under 100 words**, adapting the explanation to the learner's background.
 
