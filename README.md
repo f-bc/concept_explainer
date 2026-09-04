@@ -26,7 +26,7 @@ The application uses **Gradio** for the interface, **LangChain** for prompt temp
 ## 📁 Project Structure
 
 ```text
-concept-explainer/
+research_assistant/
 │
 ├── app.py
 ├── pyproject.toml
@@ -41,7 +41,7 @@ concept-explainer/
 
 ```bash
 git clone https://github.com/f-bc/research_assistant.git
-cd concept-explainer
+cd research_assistant
 ```
 
 ### 2. Create a virtual environment
@@ -165,7 +165,7 @@ Example:
 
 ```toml
 [project]
-name = "concept-explainer"
+name = "research_assistant"
 version = "0.1.0"
 description = "A simple concept explanation app using Gradio, LangChain, and Groq"
 requires-python = ">=3.10"
