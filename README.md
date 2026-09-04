@@ -1,4 +1,4 @@
-# Research assistant
+# concept_explainer
 
 A simple AI-powered web application that explains unfamiliar concepts in **under 100 words**, adapting the explanation to the learner's background.
 
@@ -26,7 +26,7 @@ The application uses **Gradio** for the interface, **LangChain** for prompt temp
 ## 📁 Project Structure
 
 ```text
-research_assistant/
+concept_explainer/
 │
 ├── app.py
 ├── pyproject.toml
@@ -40,8 +40,8 @@ research_assistant/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/f-bc/research_assistant.git
-cd research_assistant
+git clone https://github.com/f-bc/concept_explainer.git
+cd concept_explainer
 ```
 
 ### 2. Create a virtual environment
@@ -165,7 +165,7 @@ Example:
 
 ```toml
 [project]
-name = "research_assistant"
+name = "concept_explainer"
 version = "0.1.0"
 description = "A simple concept explanation app using Gradio, LangChain, and Groq"
 requires-python = ">=3.10"
